@@ -2,11 +2,18 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import { BrowserRouter } from 'react-router-dom';
+import {Provider} from 'react-redux';
+import store from './redux/store';
 
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
-      <App /> 
+    <React.Fragment>
+      <Provider store={store}>
+        <App /> 
+      </Provider>
+    </React.Fragment>
+      
     </BrowserRouter>
     
   </React.StrictMode>,

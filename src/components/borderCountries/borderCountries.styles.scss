@@ -1,0 +1,43 @@
+.borderLinksWrapper{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 1em;
+    align-items: center;
+
+    .borderCountryLinks{
+        color: var(--light-mode-text);
+        background: var(--light-mode-element);
+        box-shadow: 1px 1px 2px 2px rgb(226, 226, 226);
+        margin: 5px 5px;
+        padding: 0.2em 1.2em;
+        font-size: 0.9em;
+        font-weight: 300;
+
+        &:hover{
+            color: var(--dark-mode-text);
+            background: var(--dark-mode-elements);
+            box-shadow: 1px 1px 2px hsl(208, 26%, 13%);
+        }
+    }
+    
+}
+
+.dark .borderLinksWrapper{
+
+    .borderCountryLinks{
+        color: var(--darj-mode-text);
+        background: var(--dark-mode-elements);
+        box-shadow: 1px 1px 2px hsl(208, 26%, 13%);
+        margin: 5px 5px;
+        padding: 0.2em 1.2em;
+        font-size: 0.9em;
+        font-weight: 300;
+
+        &:hover{
+            color: var(--light-mode-text);
+            background: var(--light-mode-element);
+            box-shadow: 1px 1px 2px 2px rgb(226, 226, 226);
+        }
+    }
+    
+}
