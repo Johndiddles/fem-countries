@@ -1,5 +1,5 @@
 .homepage {
-    margin-top: 4em;
+    margin-top: 5em;
     display: flex;
     flex-direction: column;
     padding: 2em 5em;
@@ -95,7 +95,7 @@
     }
 
     .country-wrapper {
-        margin-top: 1em;
+        margin: 1.5em -1.5em;
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
@@ -114,6 +114,7 @@
             border-radius: 5px;
             box-shadow: 1px 2px 2px rgb(226, 226, 226);
             cursor: pointer;
+            margin: 1.5em;
 
             &:link {
                 color: var(--light-mode-text);
