@@ -14,11 +14,9 @@ const BorderCountries = ({border}) => {
             if(country.alpha3Code === border[i]){
                 borders.push(country.name);
             }
-        })
-        
+        })        
     }
 
-    console.log(borders)
 
     return (
             <div className='borderLinksWrapper'>

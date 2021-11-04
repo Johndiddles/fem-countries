@@ -13,7 +13,7 @@ const CountryListing = () => {
 
     const fetchCountries = async()=>{
         const response = await axios
-        .get('https://restcountries.eu/rest/v2/all')
+        .get('https://restcountries.com/v2/all')
         .catch((err) => {
             console.log('err ', err);
         });
@@ -41,7 +41,7 @@ class Homepage extends Component{
     }
 
     componentDidMount(){
-        fetch('https://restcountries.eu/rest/v2/all')
+        fetch('https://restcountries.com/v2/all')
         .then(response => response.json())
         .then(data => this.setState({
             countries: data

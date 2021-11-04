@@ -2,7 +2,6 @@ import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import { Link, useParams} from 'react-router-dom';
 import BorderCountries from '../../components/borderCountries/borderCountries.component';
-// import AllCountryData from '../../store/countryData';
 
 
 
@@ -15,9 +14,8 @@ function Country (){
     const lang = [];
     const currencies = [];
 
-    // console.log(AllCountryData);
     const fetchData = async () =>{
-        const result = await axios('https://restcountries.eu/rest/v2/name/'+country.country,);
+        const result = await axios('https://restcountries.com/v2/name/'+country.country,);
         setCountryDetails(result.data[0]);
 
     }
