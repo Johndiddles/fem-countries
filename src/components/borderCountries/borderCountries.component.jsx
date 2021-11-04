@@ -8,8 +8,9 @@ const BorderCountries = ({border}) => {
     const countries = useSelector((state) => state.allCountries.countries);
     const borders = []
     
+    console.log(countries)
     
-    for(var i=0; i<border.length; i++){
+    for(var i=0; i < border.length; i++){
         countries.map(country => {
             if(country.alpha3Code === border[i]){
                 borders.push(country.name);

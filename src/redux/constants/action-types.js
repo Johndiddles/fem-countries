@@ -1,3 +1,3 @@
 export const ActionTypes = {
-    SET_COUNTRIES: 'SET_PRODUCTS'
+    SET_COUNTRIES: 'SET_COUNTRIES'
 }

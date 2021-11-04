@@ -23,7 +23,7 @@ const CountryListing = () => {
     useEffect(() => {
         fetchCountries()
     }, []);
-    return(' ')
+    return('')
 }
 
 
@@ -35,9 +35,7 @@ class Homepage extends Component{
             countries: [],
             searchField: '',
             region: ''
-        }
-
-        
+        }        
     }
 
     componentDidMount(){
