@@ -43,7 +43,7 @@ Users can do the following on this app:
 ### Links
 
 - Solution URL: [Code available on Github](https://github.com/Johndiddles/fem-countries)
-- Live Site URL: [Hosted on Netlify](https://countries-fem.netlify.app/)
+- Live Site URL: [Hosted on Netlify](https://jovial-curie-b94496.netlify.app/)
 
 ## My process
 
